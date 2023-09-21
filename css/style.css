@@ -75,3 +75,20 @@ h2 {
 #gallery .column img {
     margin-top: 8px;
 }
+
+
+/* MEDIA QUERIES */
+
+/* TABLET */
+@media screen and (max-width: 850px) {
+    #gallery .column {
+        flex: 50%;
+    }
+}
+
+/* MOBILE */
+@media screen and (max-width: 560px) {
+    #gallery .column {
+        flex: 100%;
+    }
+}
