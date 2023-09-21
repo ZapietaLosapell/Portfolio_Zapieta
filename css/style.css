@@ -1,0 +1,36 @@
+/* El selector universal selecciona todos los elementos del html 
+por separado y les aplica unas propiedades. */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* La propiedad box-sizing servira para modificar el modelo de caja
+    por defecto para que cuente el padding como tamaño de la caja */
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: bisque;
+}
+
+.sidebar {
+    /* Los porcentajes son una medida relativa al tamaño del contenedor padre */
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    background-color: rgb(204, 192, 233);
+}
+
+#content {
+    margin-left: 250px;
+    /* margin: 0 0 250px */
+    padding: 2em;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2em;
+}
