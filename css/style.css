@@ -13,6 +13,12 @@ body {
     background-color: bisque;
 }
 
+img {
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
 .sidebar {
     /* Los porcentajes son una medida relativa al tamaño del contenedor padre */
     height: 100%;
@@ -28,7 +34,7 @@ body {
     text-align: center;
     padding: 1em;
     text-decoration: none;
-    color:rgb(255, 255, 255);
+    color:rgb(255, 250, 240);
     transition: 0.35s;
 }
 
@@ -40,7 +46,6 @@ body {
 #content {
     margin-left: 250px;
     /* margin: 0 0 250px */
-    padding: 2em;
 }
 
 h1 {
@@ -51,3 +56,22 @@ h2 {
     font-size: 2em;
 }
 
+#content .titles {
+    padding: 2em;
+}
+
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+
+}
+
+#gallery .column {
+    flex: 25%;
+    padding: 0 4px;
+}
+
+#gallery .column img {
+    margin-top: 8px;
+}
