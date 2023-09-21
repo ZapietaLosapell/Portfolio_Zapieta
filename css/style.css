@@ -19,6 +19,22 @@ body {
     width: 250px;
     position: fixed;
     background-color: rgb(204, 192, 233);
+
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar a{
+    text-align: center;
+    padding: 1em;
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    transition: 0.35s;
+}
+
+.sidebar a:hover{
+    background-color: rgb(104, 80, 161);
+    font-weight: bold;
 }
 
 #content {
@@ -34,3 +50,4 @@ h1 {
 h2 {
     font-size: 2em;
 }
+
